@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Wordpress, PHP, Wordpress Developer, PHP Developer, Landing Pages, Sistemas Web">
     <title>Marcos Henrique - Desenvolvedor PHP/Wordpress</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,20 @@
 </head>
 <body>
     
-    <main class="page">
+    <main class="page" id="top">
+        <nav class="summary">
+            <ul>
+                <li class="nav-item" data-target="top">Topo</li>
+                <li class="nav-item" data-target="about">Sobre</li>
+                <li class="nav-item" data-target="contacts">Contatos e Skills</li>
+                <li class="nav-item" data-target="portfolio">Portfólio</li>
+            </ul>
+
+            <div id="nav-action">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
         <div class="main-headline">
             <div class="container">
                 <div class="row">
@@ -38,7 +52,7 @@
                 <div class="row">
                     <div class="col col-md-4 col-profile-photo">
                         <div class="profile-photo">
-                            <img src="img/photo.webp" alt="">
+                            <img width="300" src="img/photo.webp" alt="">
                         </div>
                     </div>
 
@@ -55,7 +69,7 @@
             </div>
         </div>
 
-        <div class="contacts">
+        <div class="contacts" id="contacts">
             <div class="container-contacts">
                 <div class="row">
                     <article class="col-12 col-md-5">
@@ -149,20 +163,215 @@
             </div>
         </div>
 
-        <section class="section portfolio">
-            <div class="container">
+        <section class="section portfolio" id="portfolio">
+            <div class="">
                 <h2 class="section-title text-white">Portfólio</h2>
 
-                <div class="carousel-portfolio olw-carousel owl-theme">
-                    <article class="item"></article>
+                <div class="carousel-portfolio owl-carousel owl-theme">
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/eficaz.webp" alt="Eficas Ambiental">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Eficas Ambiental</h2>
+                            <a href="https://eficazambiental.com.br/" target="_blank" rel="noopener nofollow">https://eficazambiental.com.br</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/bampi.webp" alt="A2 Bampi Empreendimentos">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>A2 Bampi Empreendimentos</h2>
+                            <a href="https://a2bampiempreendimentos.com.br/chacaranobre/" target="_blank" rel="noopener nofollow">https://a2bampiempreendimentos.com.br/chacaranobre</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/cyberdata.webp" alt="Cyberdata">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Cyberdata</h2>
+                            <a href="https://cyberdata.com.br" target="_blank" rel="noopener nofollow">https://cyberdata.com.br</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/jejumketo.webp" alt="Jejum Keto">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Jejum Keto</h2>
+                            <a href="https://jejumketo.com.br" target="_blank" rel="noopener nofollow">https://jejumketo.com.br</a>
+                            <div class="category">Landing Page</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/cogumelo.webp" alt="Cogumelo Telecom">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Cogumelo Telecom</h2>
+                            <a href="https://cogumelotelecom.com" target="_blank" rel="noopener nofollow">https://cogumelotelecom.com</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/alaris.webp" alt="Alaris Service">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Alaris Service</h2>
+                            <a href="https://alarisservice.com.br" target="_blank" rel="noopener nofollow">https://alarisservice.com.br</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/spg.webp" alt="SPG Soluções">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>SPG Soluções</h2>
+                            <a href="https://spgsolucoes.com/" target="_blank" rel="noopener nofollow">https://spgsolucoes.com/</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/vedastarck.webp" alt="Veda Stark">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Veda Stark</h2>
+                            <a href="https://www.vedastark.com.br/" target="_blank" rel="noopener nofollow">https://www.vedastark.com.br/</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/medrevisa.webp" alt="Medrevisa">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Medrevisa</h2>
+                            <a href="https://medrevisa.com.br" target="_blank" rel="noopener nofollow">https://medrevisa.com.br</a>
+                            <div class="category">Landing Page</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/ribersid.webp" alt="Riber Sid">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Riber Sid</h2>
+                            <a href="https://www.ribersid.com.br" target="_blank" rel="noopener nofollow">https://www.ribersid.com.br</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/rhpvc.webp" alt="RH Pra Você">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>RH Pra Você</h2>
+                            <a href="https://rhpravoce.com.br" target="_blank" rel="noopener nofollow">https://rhpravoce.com.br</a>
+                            <div class="category">Portal de Conteúdo</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/isaias-rocha.webp" alt="Isaias Rocha">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Isaias Rocha</h2>
+                            <a href="https://isaiasrocha.com.br" target="_blank" rel="noopener nofollow">https://isaiasrocha.com.br</a>
+                            <div class="category">Portal de Conteúdo</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/oportal.webp" alt="Jornal O Portal">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Jornal O Portal</h2>
+                            <a href="https://jornaloportal.com.br" target="_blank" rel="noopener nofollow">https://jornaloportal.com.br</a>
+                            <div class="category">Portal de Conteúdo</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/pepitas.webp" alt="Pepitas Secretaries Club">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Pepitas Secretaries Club</h2>
+                            <a href="https://pepitassecretariesclub.com" target="_blank" rel="noopener nofollow">https://pepitassecretariesclub.com</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/heisentech.webp" alt="Heisentech Refrigeração">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Heisentech Refrigeração</h2>
+                            <a href="https://heisentechrefrigeracao.com.br" target="_blank" rel="noopener nofollow">https://heisentechrefrigeracao.com.br</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
+
+                    <article class="item">
+                        <header class="screenshot">
+                            <img width="500" src="img/septem.webp" alt="Septem Brasil">
+                        </header>
+
+                        <footer class="project-info">
+                            <h2>Septem Brasil</h2>
+                            <a href="https://septembrasil.com/" target="_blank" rel="noopener nofollow">https://septembrasil.com/</a>
+                            <div class="category">Website Institucional</div>
+                        </footer>
+                    </article>
                 </div>
             </div>
         </section>
+
+        <footer class="main-footer">
+            <p>Marcos Henrique. PHP/Wordpress Developer.</p>
+            <span>Desde 2017 ajudando projetos a se tornarem realidade.</span>
+        </footer>
     </main>
 
-    <script async src='js/jquery.min.js'></script>
-    <script async src='js/bootstrap.min.js'></script>
-    <script async src="js/owl.carousel.min.js"></script>
+    <script async defer src='js/jquery.min.js'></script>
+    <script async defer src='js/bootstrap.min.js'></script>
+    <script async defer src="js/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
