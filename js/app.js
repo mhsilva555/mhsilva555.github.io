@@ -52,6 +52,7 @@ jQuery(function($) {
             autoplay: true,
             dots:true,
             nav:true,
+            autoplayHoverPause: true,
             responsive: {
             0: {
                 items: 1,
